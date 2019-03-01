@@ -1,0 +1,10 @@
+<resources>
+    <string name="AppName">WEEK \nWEATHER</string>
+    <string name="alertDialog">Your GPS is disabled, do you want to enable it?</string>
+    <string name="textUpper">We found your current location!</string>
+
+    <string name="date">DATE</string>
+    <string name="today">TODAY</string>
+
+
+</resources>

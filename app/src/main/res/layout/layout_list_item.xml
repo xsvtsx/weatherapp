@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/splashbackgroundColor"
+    android:orientation="horizontal"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:id="@+id/parentLayout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="monday"
+        android:textColor="@color/colorForText"
+        android:fontFamily="@font/averta_black"
+        android:id="@+id/dayOfWeek"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/iconOfWeather"
+        android:src="@drawable/ic_cloudy"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="26C"
+        android:textColor="@color/colorForText"
+        android:fontFamily="@font/averta_black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.5dp"
+        android:id="@+id/temperatureData"/>
+
+
+</RelativeLayout>
